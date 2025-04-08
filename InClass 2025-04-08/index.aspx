@@ -15,41 +15,38 @@
                         <asp:Calendar ID="cldCheckInDate" runat="server"></asp:Calendar>
                     </asp:TableCell>
                   
-                     <asp:TableCell>
+                    <asp:TableCell>
                          <asp:Calendar ID="cldCheckOutDate" runat="server"></asp:Calendar>
                     </asp:TableCell>
-                     <asp:TableCell>
 
+                    <asp:TableCell>
                     </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell>
                         <asp:Label ID="lblCheckInDate" runat="server" Text="Check In Date"></asp:Label>
                     </asp:TableCell>
-                     <asp:TableCell>
+
+                    <asp:TableCell>
                          <asp:Label ID="lblCheckOutDate" runat="server" Text="Check Out Date"></asp:Label>
+                    </asp:TableCell>
 
- </asp:TableCell>
-                     <asp:TableCell>
-
- </asp:TableCell>
+                    <asp:TableCell>
+                    </asp:TableCell>
                 </asp:TableRow>
                 <asp:TableRow>
                     <asp:TableCell>
-
                     </asp:TableCell>
-                     <asp:TableCell>
 
- </asp:TableCell>
+                    <asp:TableCell>
+                    </asp:TableCell>
+
                      <asp:TableCell>
-                         <asp:Button ID="cmdOk" runat="server" Text="Ok" />
- </asp:TableCell>
+                         <asp:Button ID="cmdOk" runat="server" Text="Ok" OnClick="cmdOk_Click"/>
+                    </asp:TableCell>
                 </asp:TableRow>
-
             </asp:Table>
             <asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
-              
-
         </div>
     </form>
 </body>
